@@ -1,4 +1,4 @@
-FROM ghcr.io/zalando/spilo-17:4.0-p2
+FROM docker.io/bitnami/postgresql-repmgr:17.6.0-debian-12-r2
 
 # Install required dependencies for Git and compiling extensions
 RUN apt-get update && apt-get install -y \
